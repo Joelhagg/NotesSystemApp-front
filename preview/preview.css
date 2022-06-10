@@ -1,0 +1,11 @@
+body {
+    padding: 2em;
+}
+
+#previewContent {
+    width: 50%;
+}
+
+#headerContainer {
+    font-size: 2em;
+}

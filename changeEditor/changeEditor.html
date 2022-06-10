@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./changeEditor.css">
+    <title>Document</title>
+    <script src="https://cdn.tiny.cloud/1/fxrgxknsg35nl7lups6slw4pvlmhvg8la429h21g8anz5w97/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+</head>
+<body>
+    <a href="../documents/documents.html"><button>Tillbaka</button></a>
+
+    <br />
+    <br />
+
+    <label  for="header">Rubrik </label>
+    <input id="headerInput" name="header">
+    <label  for="dateInput">Senast ändrad </label>
+    <input disabled id="dateInput" name="date">
+    
+    <br />
+    <br />
+
+    <textarea id="textarea" placeholder="Börja skriva här..." >
+    </textarea>
+
+    <br>
+
+    <button id="saveBtn" >Ändra dokument</button>
+    
+
+    <script src="./changeEditor.js"></script>
+</body>
+</html>
